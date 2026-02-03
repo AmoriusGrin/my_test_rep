@@ -1,0 +1,10 @@
+h1, h2 {
+    text-align: center;
+    color: red;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
