@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 h2 {
@@ -13,6 +19,7 @@ p {
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
     /* font-style: italic; */
+    padding: 10px;
 }
 
 img {
@@ -29,4 +36,5 @@ img {
     border-style: solid; */
     border: 5px solid black;
     padding: 20px;
+    margin: 20px 20px;
 }
