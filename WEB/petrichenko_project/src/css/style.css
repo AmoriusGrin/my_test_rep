@@ -52,5 +52,23 @@ p {
 }
 
 .navigation {
-    position: static;
+    position: fixed;
+    background-color: gray;
+    top: 40px;
+    right: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+.navigation ol {
+    position: inherit;
+    top: 50px;
+}
+
+.border {
+    border: solid 5px black;
+}
+
+#no-border {
+    border-style: none;
 }
