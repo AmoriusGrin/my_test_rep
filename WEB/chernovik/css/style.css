@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -9,29 +9,11 @@
   margin: 0 auto;
 }
 
-.title {
-  font-weight: 900;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.title__colored {
-  color: rgba(249, 191, 59, 1);
-  font-size: 41px;
-  line-height: 41px;
-}
-
-.title__big {
-  color: rgba(255, 255, 255, 1);
-  font-size: 80px;
-  line-height: 80px;
-}
-
 .btn {
   display: block;
   margin: 0 auto;
-  min-width: 315px;
-  min-height: 72px;
+  width: 315px;
+  height: 72px;
   border-radius: 4px;
   background: linear-gradient(
     0deg,
@@ -39,33 +21,23 @@
     rgba(254, 176, 93, 1) 100%
   );
   color: rgba(255, 255, 255, 1);
-  font-style: Medium;
   font-size: 21px;
   font-weight: 500;
+  line-height: 25px;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-  cursor: pointer;
   padding: 0 15px;
-}
-
-.promo {
-  padding: 22px 0 53px 0;
-  /* min-height: 800px; */
-  background: url("../img/first_screen/main_bg.jpeg") center center / cover
-    no-repeat;
-}
-
-.promo h1 {
-  margin-top: 52px;
-}
-
-.promo h2 {
-  margin-top: 12px;
+  cursor: pointer;
 }
 
 .promo .btn {
-  margin-top: 75px;
+  margin: 75px auto;
+}
+
+.promo {
+  padding: 22px 0 58px 0;
+  background: url("../img/first_screen/main_bg.jpeg") center center / cover
+    no-repeat;
 }
 
 .logo__img {
@@ -76,6 +48,7 @@
 .logo__text {
   padding-top: 13px;
   color: rgba(255, 255, 255, 1);
+  font-style: Medium;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -83,10 +56,35 @@
   text-transform: uppercase;
 }
 
+.promo h1 {
+  padding-top: 52px;
+}
+
+.promo h2 {
+  padding-top: 12px;
+}
+
+.title {
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title__big {
+  color: rgba(255, 255, 255, 1);
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.title__colored {
+  color: rgba(249, 191, 59, 1);
+  font-size: 41px;
+  line-height: 41px;
+}
+
 .promo__text {
   margin-top: 20px;
   color: white;
-  font-style: Medium;
   font-size: 21px;
   font-weight: 500;
   line-height: 28px;
@@ -99,9 +97,7 @@
 }
 
 .promo__more-text {
-  margin-top: 75px;
   color: rgba(255, 255, 255, 1);
-  font-style: Medium;
   font-size: 15px;
   font-weight: 500;
   line-height: 18px;
@@ -109,7 +105,7 @@
   text-transform: uppercase;
 }
 
-.promo__more-img {
+.more__img {
   display: block;
   margin: 10px auto 0 auto;
 }
